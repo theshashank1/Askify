@@ -10,3 +10,6 @@ langchain
 langchain-community
 langchain-google-genai
 dotenv
+pytest
+httpx
+pytest-asyncio

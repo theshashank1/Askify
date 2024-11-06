@@ -14,8 +14,8 @@ Askify is a backend service that allows users to upload PDF documents and ask qu
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [API Documentation](#api-documentation)
-  - [PDF Upload](#pdf-upload)
-  - [Question Answering](#question-answering)
+- [PDF Upload](#pdf-upload)
+- [Question Answering](#question-answering)
 - [Testing with Postman](#testing-with-postman)
 - [License](#license)
 
@@ -108,9 +108,9 @@ Askify/
 │   └── question_answer.py    # Endpoint for question answering
 ├── upload/                   # Directory to store uploaded PDFs
 ├── utils/                    # Utility functions and helper classes
-│   ├── database.py           # SQLite database setup and interaction
-│   ├── pdf_data.db           # SQLite database file
-│   ├── pdf_processor.py      # PDF text extraction logic
+│   └── pdf_processor.py      # PDF text extraction logic
+├── database.py               # SQLite database setup and interaction
+├── pdf_data.db               # SQLite database file
 ├── llm.py                    # Language model integration with LangChain
 ├── rag.py                    # Retrieval-Augmented Generation (RAG) logic
 ├── main.py                   # FastAPI app initialization
@@ -178,5 +178,3 @@ You can access the Postman workspace here: [Askify Postman Workspace](https://ww
 This project is licensed under the MIT License.
 
 --- 
-
-This README now includes a concise description of the Postman workspace setup for easier testing.
